@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/danielpillay/static/css/main.87a5d681.chunk.css",
+    "main.js": "/danielpillay/static/js/main.977648f6.chunk.js",
+    "main.js.map": "/danielpillay/static/js/main.977648f6.chunk.js.map",
+    "runtime~main.js": "/danielpillay/static/js/runtime~main.927450d6.js",
+    "runtime~main.js.map": "/danielpillay/static/js/runtime~main.927450d6.js.map",
+    "static/css/2.ac4c487b.chunk.css": "/danielpillay/static/css/2.ac4c487b.chunk.css",
+    "static/js/2.d8f9bdd6.chunk.js": "/danielpillay/static/js/2.d8f9bdd6.chunk.js",
+    "static/js/2.d8f9bdd6.chunk.js.map": "/danielpillay/static/js/2.d8f9bdd6.chunk.js.map",
+    "index.html": "/danielpillay/index.html",
+    "precache-manifest.5f4ab86bef326b7a27d5b7a741c569b6.js": "/danielpillay/precache-manifest.5f4ab86bef326b7a27d5b7a741c569b6.js",
+    "service-worker.js": "/danielpillay/service-worker.js",
+    "static/css/2.ac4c487b.chunk.css.map": "/danielpillay/static/css/2.ac4c487b.chunk.css.map",
+    "static/css/main.87a5d681.chunk.css.map": "/danielpillay/static/css/main.87a5d681.chunk.css.map",
+    "static/media/deception-pass.md": "/danielpillay/static/media/deception-pass.a0fcf0d7.md",
+    "static/media/hawaii-teleport.md": "/danielpillay/static/media/hawaii-teleport.36ca5432.md",
+    "static/media/heeia-bay.md": "/danielpillay/static/media/heeia-bay.a6a66eab.md",
+    "static/media/kona-golden-hour.md": "/danielpillay/static/media/kona-golden-hour.6cc66bbe.md",
+    "static/media/poetry-in-motion.md": "/danielpillay/static/media/poetry-in-motion.7b85c16f.md",
+    "static/media/skydive.md": "/danielpillay/static/media/skydive.0dbb9c17.md",
+    "static/media/slick-theme.css": "/danielpillay/static/media/slick.f97e3bbf.svg"
+  }
+}

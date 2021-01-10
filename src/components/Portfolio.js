@@ -1,0 +1,35 @@
+import React, { useState } from "react";
+import * as Icon from "react-feather";
+import FsLightbox from "fslightbox-react";
+
+function Portfolio(props) {
+  const [toggler, setToggler] = useState(false);
+  const {title, subtitle, imageUrl, largeImageUrl, url} = props.content;
+  
+  const handleToggler = (value) => {
+    setToggler(value);
+  }
+
+  return (
+    <div className={props.isVisible ? "mi-portfolio mi-portfolio-visible" : "mi-portfolio"}>
+      <div className="mi-portfolio-image">
+        <img src={imageUrl} alt={title} />
+        <ul>
+          { url ? <li>
+            <a rel="noopener noreferrer" target="_blank" href={url}>
+              <Icon.Link/>
+            </a>
+          </li> : null}
+        </ul>
+      </div>
+      {!url ? <h5>{title}</h5> : <h5 className="portfolio-subtitle">
+        <a rel="noopener noreferrer" target="_blank" href={url}>
+          {title}
+        </a>
+      </h5>}
+      {subtitle ? <h6 className="portfolio-subtitle">{subtitle}</h6> : null}
+    </div>
+  );
+}
+
+export default Portfolio;
