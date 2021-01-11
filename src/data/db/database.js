@@ -15,26 +15,25 @@ const database = {
       youtube: 'https://www.youtube.com/user/dpillay03/',
       github: 'https://github.com/dpillay03',
     },
-    brandImage: '/images/brand-image.png',
-    aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
+    brandImage: 'https://i.ibb.co/VwPRqb9/Untitled-design.png',
+    aboutImage: 'https://i.ibb.co/h1b7Kph/DSC-3781.jpg',
     cvfile: '/files/empty.pdf'
   },
   services: [
     {
       title: "Web Design",
       icon: 'color-pallet',
-      details: "Need a website for your business or brand? Your online footprint is important and I will build you a fully custom website that will help you win."
+      details: "Let me help you build your online footprint by creating custom websites tailored to help you win. I specialize in Wordpress, Wix, Squarespace, and custom code. Let's connect."
     },
     {
       title: "Programming",
       icon: 'code',
-      details: "For your programming needs, I am proficient in JavaScript, React, Java, Python, jQuery, Git, Heroku, AWS, MongoDB, and more. Let's connect!"
+      details: "I am proficient in various programming languages, frameworks, and libraries. From Java, Python, JavaScript, HTML, CSS, React, Nodejs, jQuery, and more."
     },
     {
       title: "Videography",
       icon: 'video',
-      details: "I have Industry and freelance experience creating various promotional and drone videos for business's and athletes. Tell your story!"
+      details: "I have Industry and freelance experience creating various promotional videos for business's and athletes. My passions lie in Drone videography. Let's tell your story."
     }
   ],
   reviews: [
@@ -67,49 +66,49 @@ const database = {
     {
       id: 1,
       title: "Amazing Life Chiropractic",
-      subtitle: "Official website for the Amazing Life Chiropractic and Wellness.",
-      imageUrl: "https://i.ibb.co/gWNHFKF/Project-Thumbnails-1.png",
-      largeImageUrl: ["https://i.ibb.co/R3rF629/alcw-large.png"],
+      subtitle: "Wordpress website for the Amazing Life Chiropractic and Wellness.",
+      imageUrl: "https://i.ibb.co/P9KLTKZ/alcw.jpg",
+      largeImageUrl: ["https://i.ibb.co/P9KLTKZ/alcw.jpg"],
       url: 'https://amazinglifechiropractic.com'
     },
     {
       id: 2,
       title: "Renzo Gracie Seattle",
-      subtitle: "Official website for Renzo Gracie Seattle - Brazilian Jiu-jitsu.",
-      imageUrl: "https://i.ibb.co/1Rgcpzp/rgs.png",
-      largeImageUrl: ["https://i.ibb.co/TYzKgVH/rgs-large.png"],
+      subtitle: "Squarespace website for Renzo Gracie Seattle - Brazilian Jiu-jitsu.",
+      imageUrl: "https://i.ibb.co/W26S1DP/rgs.jpg",
+      largeImageUrl: ["https://i.ibb.co/W26S1DP/rgs.jpg"],
       url: 'https://renzogracieseattle.com'
     },
     {
       id: 3,
       title: "Combat Capitol",
       subtitle: "A combat sports news app built with React and NewsAPI.",
-      imageUrl: "https://i.ibb.co/q9KBw6q/combatcapitol.png",
-      largeImageUrl: ["https://i.ibb.co/q9KBw6q/combatcapitol.png"],
+      imageUrl: "https://i.ibb.co/j3rCYLX/combatcapitol.jpg",
+      largeImageUrl: ["https://i.ibb.co/j3rCYLX/combatcapitol.jpg"],
       url: 'https://github.com/dpillay03/combatcapitol',
     },
     {
       id: 4,
       title: "SoundWave",
       subtitle: "A music playlist CRUD app built with Node, MongoDB, and jQuery.",
-      imageUrl: "https://i.ibb.co/MGR3C8q/soundwave.png",
-      largeImageUrl: ["https://i.ibb.co/MGR3C8q/soundwave.png"],
+      imageUrl: "https://i.ibb.co/V3pHZSq/soundwave.jpg",
+      largeImageUrl: ["https://i.ibb.co/V3pHZSq/soundwave.jpg"],
       url: 'https://soundwavecf.herokuapp.com/home.html'
     },
     {
       id: 5,
       title: "Subreddit Search Engine",
       subtitle: "A subreddit search engine built with React, HTML5, and CSS3.",
-      imageUrl: "https://i.ibb.co/wNTqHQV/subreddit.png",
-      largeImageUrl: ["https://i.ibb.co/wNTqHQV/subreddit.png"],
+      imageUrl: "https://i.ibb.co/5Lhn5pX/subreddit.jpg",
+      largeImageUrl: ["https://i.ibb.co/5Lhn5pX/subreddit.jpg"],
       url: 'https://github.com/dpillay03/subreddit'
     },
     {
       id: 6,
       title: "Execute - To Do List",
       subtitle: "Execute is a to list built with React, HTML5, and CSS3.",
-      imageUrl: "https://i.ibb.co/3FSGyc3/Project-Thumbnails-2.png",
-      largeImageUrl: ["https://i.ibb.co/3FSGyc3/Project-Thumbnails-2.png"],
+      imageUrl: "https://i.ibb.co/k2rdvy0/Execute.jpg",
+      largeImageUrl: ["https://i.ibb.co/k2rdvy0/Execute.jpg"],
       url: 'https://dpillay03.github.io/execute/'
     }
   ],
@@ -171,7 +170,16 @@ const database = {
   blogs: [
     {
       id: 1,
-      title: 'He\'ia Bay // Drone Film',
+      title: 'Create a News App With NewsAPI and React',
+      featuredImage: 'https://i.ibb.co/DGZ34B4/Website-Blog-Thumbnails.jpg',
+      filesource: '../../blog/combat-capitol.md',
+      createDay: "22",
+      createMonth: 'December',
+      createYear: "2020"
+    },
+    {
+      id: 2,
+      title: 'He\'ia Bay // Drone ',
       featuredImage: 'https://i.ibb.co/d4Kzk8f/3.png',
       filesource: '../../blog/heeia-bay.md',
       createDay: "8",
@@ -179,8 +187,8 @@ const database = {
       createYear: "2020"
     },
     {
-      id: 2,
-      title: 'Kona Golden Hour // Drone Film',
+      id: 3,
+      title: 'Kona Golden Hour // Drone ',
       featuredImage: 'https://i.ibb.co/TgqTbWb/4.png',
       filesource: '../../blog/kona-golden-hour.md',
       createDay: "25",
@@ -188,8 +196,8 @@ const database = {
       createYear: "2020"
     },
     {
-      id: 3,
-      title: 'Hawaii Teleport Effect // Drone Film',
+      id: 4,
+      title: 'Hawaii Teleport Effect // Drone ',
       featuredImage: 'https://i.ibb.co/M2Qy7Fm/5.png',
       filesource: '../../blog/hawaii-teleport.md',
       createDay: "18",
@@ -197,8 +205,8 @@ const database = {
       createYear: "2020"
     },
     {
-      id: 4,
-      title: 'Deception Pass // Drone Film',
+      id: 5,
+      title: 'Deception Pass // Drone ',
       featuredImage: 'https://i.ibb.co/DY7y1NL/6.png',
       filesource: '../../blog/deception-pass.md',
       createDay: "1",
@@ -206,18 +214,18 @@ const database = {
       createYear: "2020"
     },
     {
-      id: 5,
-      title: 'Poetry in Motion // Jon Calestine',
-      featuredImage: 'https://i.ibb.co/Fh9cJWg/maxresdefault.jpg',
+      id: 6,
+      title: 'Poetry in Motion - Jon Calestine',
+      featuredImage: 'https://i.ibb.co/B3hP2qh/Website-Blog-Thumbnails-1.png',
       filesource: '../../blog/poetry-in-motion.md',
       createDay: "26",
       createMonth: 'October',
       createYear: "2019"
     },
     {
-      id: 6,
+      id: 7,
       title: 'If You Don\'t Jump, You\'ll Never Fly',
-      featuredImage: 'https://i.ibb.co/hYWXZYf/1.png',
+      featuredImage: 'https://i.ibb.co/NK2CQRL/skydiving-blog.png',
       filesource: '../../skydive.md',
       createDay: "19",
       createMonth: 'September',

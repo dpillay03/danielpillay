@@ -1,7 +1,10 @@
 /**
- * Blog Styels
+ * Blog Styles
  */
-
+ .blog-content {
+   width: 600px;
+   margin: 0 auto;
+ }
 .mi-blog {
   background: lighten($color-bg-body, 5);
   padding: 15px;

@@ -68,12 +68,7 @@ function About() {
                   onClick={() => handleToggler(!toggler)}
                 />
                 <span className="mi-about-image-icon">
-                  <Icon.ZoomIn />
                 </span>
-                <FsLightbox
-                  toggler={toggler}
-                  sources={[information.aboutImageLg]}
-                />
               </div>
             </div>
             <div className="col-lg-6">
@@ -82,7 +77,7 @@ function About() {
                   My name is <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  I am an Air Force veteran turned Software Developer with a background in Digital Marketing. On my freetime, I enjoy training Brazilian Jiu-jitsu, playing my strat, drones, skydiving, fitness, and partaking in activities that push me both  mentally and physically.
+                  I am an Air Force veteran turned Software Developer with a background in Digital Marketing. On my free time, I enjoy training Brazilian Jiu-jitsu, stratocasters, drones, skydiving, fitness, playing chess, and partaking in activities that push me both mentally and physically. Feel free to contact me for business inquiries and questions!
                 </p>
                 <ul>
                   {!information.name ? null : (
