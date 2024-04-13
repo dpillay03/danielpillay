@@ -1,11 +1,14 @@
 import React from 'react';
 import logoImage from '../assets/logo.png';
+import { IoMdClose } from 'react-icons/io';
+import SocialFooter from '../components/footerSocial.js';
 
 const MobileNav = ({ isVisible, toggleNav, scrollToSection }) => {
   if (!isVisible) return null;
 
   return (
     <nav className='mobile-navigation'>
+      <IoMdClose className='close-mobile' size={30} onClick={toggleNav} />
       <ul>
         <li>
           <img src={logoImage} style={{ height: '100px', width: 'auto' }} />
@@ -42,6 +45,7 @@ const MobileNav = ({ isVisible, toggleNav, scrollToSection }) => {
         >
           Contact
         </li>
+        <SocialFooter />
       </ul>
     </nav>
   );

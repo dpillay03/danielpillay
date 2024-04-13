@@ -134,7 +134,7 @@
     }
 }
 
-Mobile Nav .mobile-navigation {
+menu nav .mobile-navigation {
     position: fixed;
     top: 0;
     right: 0;
@@ -170,7 +170,28 @@ nav.mobile-navigation ul {
     gap: 50px;
     padding: 2em;
     text-align: center;
-    justify-content: center;
+
+}
+
+nav.mobile-navigation .footer-social-container {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+nav.mobile-navigation .footer-social-links {
+    color: #111424;
+}
+
+nav.mobile-navigation ul li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+svg.close-mobile {
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 
 .background-overlay {
