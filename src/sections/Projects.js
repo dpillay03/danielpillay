@@ -21,6 +21,7 @@ function Projects() {
               <div className='tech'>HTML5</div>
               <div className='tech'>CSS3</div>
               <div className='tech'>NPM</div>
+              <div className='tech'>EMAIL.JS</div>
               <div className='tech'>GH-PAGES</div>
             </div>
             {/* <button className='button secondary'>Learn More</button> */}

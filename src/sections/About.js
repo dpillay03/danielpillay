@@ -19,12 +19,10 @@ function About() {
         <div className='item'>
           <h3>My story, my mission</h3>
           <p className='body-text'>
-            Hello! I am an Air Force veteran turned full-stack software and web
-            developer with over 6 years of industry and freelance experience. My
-            dedication lies in crafting and delivering powerful and impactful
-            websites and web applications. I have worked with a broad range of
-            clients, from local businesses to multinational large-scale
-            enterprises located in the US and abroad.
+            Hello! I am an Air Force veteran turned full-stack software
+            developer with over 6 years of industry and freelance experience. I
+            have worked with a broad range of clients, from local businesses to
+            multinational large-scale enterprises located in the US and abroad.
             <br />
             <br />
             Leveraging my versatile expertise in software development, digital

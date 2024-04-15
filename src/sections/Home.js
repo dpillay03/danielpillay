@@ -9,8 +9,8 @@ function Home() {
       <div className='hero'>
         <h1 id='hero-header'>Hi, I'm Daniel Pillay</h1>
         <h2 id='hero-subheader'>
-          A Seattle based web and software developer dedicated to bridging the
-          gap between technology and people.
+          A Seattle based Software Developer with a passion for all things tech
+          and art, preferably in conjunction.
         </h2>
         <button
           className='button primary'
