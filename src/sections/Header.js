@@ -3,7 +3,7 @@ import MobileNav from './mobileNav';
 import logoImage from '../assets/logo.png';
 import { CgMenuRight } from 'react-icons/cg';
 
-function Header() {
+function Header({ isBlogPage }) {
   const [isMobileNavVisible, setIsMobileNavVisible] = useState(false);
 
   const toggleMobileNav = () => {
@@ -11,9 +11,13 @@ function Header() {
   };
 
   const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    setIsMobileNavVisible(false);
+    if (isBlogPage) {
+      window.location.href = `/#${sectionId}`; // Redirect to the homepage with the correct section.
+    } else {
+      const section = document.getElementById(sectionId);
+      section && section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setIsMobileNavVisible(false);
+    }
   };
 
   return (
@@ -59,5 +63,7 @@ function Header() {
     </header>
   );
 }
-
+Header.defaultProps = {
+  isBlogPage: false,
+};
 export default Header;

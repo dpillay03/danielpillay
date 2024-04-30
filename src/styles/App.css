@@ -242,7 +242,8 @@ svg.close-mobile {
     max-width: 1440px;
 }
 
-#hero-header {
+#hero-header,
+.project-header {
     color: #111424;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -264,7 +265,8 @@ svg.close-mobile {
     }
 }
 
-#hero-subheader {
+#hero-subheader,
+.project-subheader {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-size: 28px;
@@ -345,6 +347,10 @@ span.body-text-span {
 }
 
 /* PROJECTS */
+.project-card {
+    margin-bottom: 6em;
+}
+
 .project-image {
     max-width: 500px;
 }
@@ -461,6 +467,8 @@ span.body-text-span {
     padding: 8px;
     border: 1px solid;
     border-radius: 5px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
 }
 
 @media only screen and (max-width: 767px) {
@@ -500,6 +508,7 @@ textarea {
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
 
+
 }
 
 .contact-container {
@@ -516,6 +525,7 @@ textarea {
 /* Footer */
 section#footer-section {
     background: #111424;
+    margin-top: 50px;
 }
 
 #footer .item {
@@ -599,5 +609,61 @@ p.body-subtext.footer {
     margin-top: 3em;
     padding-bottom: 1em;
     text-align: center;
+}
 
+/* Blog */
+.project-image {
+    margin-top: 2em;
+}
+
+.project-body {
+    max-width: 1024px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.project-headers {
+    font-size: 1.5em !important;
+    margin-bottom: 20px !important;
+    display: inline-block !important;
+    text-align: left !important;
+    margin-top: 20px !important;
+}
+
+.project-body-text {
+    display: inline-block;
+    text-align: left;
+    margin-left: 0 !important;
+}
+
+.project-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .project-button-container {
+        display: block;
+    }
+
+    .project-button-container a {
+        width: 300px !important;
+        text-align: center !important;
+    }
+
+    h1.project-header {
+        margin-top: 5em;
+        font-size: 44px;
+    }
+
+    h2.project-subheader {
+        font-size: 18px;
+        width: 90%;
+        margin-top: 1em;
+
+    }
 }

@@ -1,0 +1,14 @@
+[
+  {
+    "projectSlug": "should-we-go",
+    "projectURL": "https://dpillay03.github.io/should-we-go/",
+    "projectGit": "https://github.com/dpillay03/should-we-go",
+    "projectName": "Should We Go?",
+    "projectPunchline": "Last-minute plans, instant results. Your go-to for events and weather, right when you need it.",
+    "projectImage": "/assets/should_we_go.png",
+    "summary": "'Should We Go?' is a web application that provides users with last-minute event recommendations based on their selected state and date. It also offers weather forecasts for those events to help users plan their outings more effectively.",
+    "technologies": ["React", "SeatGeek API", "Weather API", "Axios", "CSS3", "GH-PAGES"],
+    "buildProcess": "The project was built using React.js to create a dynamic and responsive user interface. Axios was used to fetch data from the SeatGeek API for event information and from the WeatherAPI for weather forecasts. CSS was utilized for styling to ensure an appealing visual presentation. The application was deployed on GitHub Pages for easy access.",
+    "obstaclesStretch": "A potential future enhancement for the project could involve implementing predictive search functionality for city names. This would allow users to search for events based on their preferred city, providing a more personalized and intuitive experience. Integrating this feature would require additional API integration and possibly the use of libraries like React-Select for enhanced search capabilities. A potential future enhancement for the project could involve implementing predictive search functionality for city names. This would allow users to search for events based on their preferred city, providing a more personalized and intuitive experience. Integrating this feature would require additional API integration and possibly the use of libraries like React-Select for enhanced search capabilities."
+  }
+]

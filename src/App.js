@@ -1,12 +1,12 @@
 import React from 'react';
 import './styles/App.css';
-
 import Home from './sections/Home';
 import About from './sections/About';
 import Projects from './sections/Projects';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 import Header from './sections/Header';
+
 function App() {
   return (
     <div>

@@ -1,9 +1,42 @@
 import portfolioThumbnail from '../assets/daniel_pillay_portfolio.png';
+import shouldWeGoThumbnail from '../assets/should_we_go.png';
+import { Link } from 'react-router-dom'; // Import Link
+
 function Projects() {
   return (
     <div className='projects-container'>
       <h1 className='section-headers'>Projects</h1>
       <hr className='section-header-hr'></hr>
+      <div className='project-card'>
+        <div className='two-col'>
+          <div className='item'>
+            <img
+              className='project-image'
+              src={shouldWeGoThumbnail}
+              alt='Should We Go?'
+            />
+          </div>
+          <div className='item'>
+            <h3 className='project-title'>Should We Go?</h3>
+            <p className='body-text'>
+              "Should We Go?" is a web application that provides users with
+              last-minute event recommendations based on their selected state
+              and date. It also offers weather forecasts for those events to
+              help users plan their outings more effectively.
+            </p>
+            <div className='tech-stack'>
+              <div className='tech'>React</div>
+              <div className='tech'>SeatGeek API</div>
+              <div className='tech'>Weather API</div>
+              <div className='tech'>Axios</div>
+              <div className='tech'>GH-PAGES</div>
+            </div>
+            <Link to='/blog/should-we-go' className='button secondary'>
+              Explore Project
+            </Link>{' '}
+          </div>
+        </div>
+      </div>
       <div className='project-card'>
         <div className='two-col'>
           <div className='item'>

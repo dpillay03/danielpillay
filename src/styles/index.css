@@ -39,7 +39,9 @@ section:not(#home-section) {
 
 }
 
-.button.primary {
+button.button.primary,
+a.button.primary,
+a.project-button.primary {
     padding: .5em 2em;
     font-size: 24px;
     background: #10E7FE;
@@ -53,15 +55,26 @@ section:not(#home-section) {
     border-radius: 5px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
     transition: transform .4s;
+    text-decoration: none;
 }
 
-.button.primary:hover {
+a.project-button.primary {
+    margin-top: 3em !important;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+button.button.primary:hover,
+a.button.primary:hover,
+a.project-button.primary:hover {
     cursor: pointer;
     top: 549px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
 }
 
-.button.secondary {
+button.button.secondary,
+a.button.secondary,
+.project-button.secondary {
     padding: 0.5rem 2.5rem;
     font-size: 18px;
     background: #10E7FE;
@@ -75,29 +88,35 @@ section:not(#home-section) {
     border-radius: 5px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
     transition: transform .4s;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
 }
 
-.button.secondary:hover {
+button.button.secondary:hover,
+a.button.secondary:hover,
+.project-button.secondary:hover {
     cursor: pointer;
     top: 549px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    button.button.secondary {
+    .button.secondary {
         display: block;
         margin: 0 auto;
         margin-top: 2em;
     }
 }
 
-.section-headers {
+.section-headers,
+.project-headers {
     font-family: "Montserrat", sans-serif;
     font-size: 2em;
     display: flex;
     text-align: center;
     justify-content: center;
     margin-top: 100px;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
