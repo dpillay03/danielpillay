@@ -2,6 +2,10 @@ import dev from '../assets/develop.png';
 import manage from '../assets/managment.png';
 import update from '../assets/rebrand.png';
 function Services() {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    section && section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
   return (
     <div className='services'>
       <h1 className='section-headers'>Services</h1>
@@ -18,7 +22,12 @@ function Services() {
             including WordPress, Shopify, BigCommerce, Wix, and Squarespace,
             ensuring a seamless and scalable online presence.
           </p>
-          <a className='button secondary'>Select Package</a>
+          <a
+            className='button secondary'
+            onClick={() => scrollToSection('contact-section')}
+          >
+            Select Package
+          </a>
         </div>
         <div className='services-card'>
           <img src={manage} className='services-icon' />
@@ -32,7 +41,12 @@ function Services() {
             rebranding services are available but not included in the standard
             management package.
           </p>
-          <a className='button secondary'>Select Package</a>
+          <a
+            className='button secondary'
+            onClick={() => scrollToSection('contact-section')}
+          >
+            Select Package
+          </a>
         </div>
         <div className='services-card'>
           <img src={update} className='services-icon' />
@@ -45,7 +59,12 @@ function Services() {
             making sure your website not only looks great but also aligns
             perfectly with your business strategy and customer expectations.
           </p>
-          <a className='button secondary'>Select Package</a>
+          <a
+            className='button secondary'
+            onClick={() => scrollToSection('contact-section')}
+          >
+            Select Package
+          </a>
         </div>
       </div>
     </div>
