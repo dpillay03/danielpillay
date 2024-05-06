@@ -7,8 +7,8 @@ function Footer() {
         <div className='item'>
           <h1 className='footer-header'>Daniel Pillay</h1>
           <p className='body-subtext footer'>
-            A Seattle based web and software developer dedicated to bridging the
-            gap between technology and people.
+            A Seattle based Software Developer with a passion for all things
+            tech and art, preferably in conjunction.
           </p>
         </div>
         <div className='item'>

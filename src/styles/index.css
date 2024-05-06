@@ -90,6 +90,7 @@ a.button.secondary,
     transition: transform .4s;
     text-decoration: none;
     font-family: "Open Sans", sans-serif;
+    text-align: center;
 }
 
 button.button.secondary:hover,
@@ -173,7 +174,9 @@ hr {
     }
 }
 
-.body-text {
+.body-text,
+.experience-position,
+.service-description {
     color: #111424;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;

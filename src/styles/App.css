@@ -38,11 +38,7 @@
     justify-content: end;
 }
 
-@media only screen and (max-width: 767px) {
-    .navigation {
-        display: block
-    }
-}
+@media only screen and (max-width: 767px) {}
 
 #nav-logo {
     height: 60px;
@@ -115,6 +111,8 @@
     #home-link,
     #about-link,
     #projects-link,
+    #experience-link,
+    #services-link,
     #contact-link {
         display: none;
     }
@@ -374,7 +372,8 @@ span.body-text-span {
     }
 }
 
-.tech {
+.tech,
+.experience-date {
     background: rgba(153, 153, 153, 0.2);
     border-radius: 5px;
     color: #666;
@@ -417,6 +416,71 @@ span.body-text-span {
     color: black;
 }
 
+/* Experience */
+h3.experience-title {
+    font-size: 28px;
+}
+
+.experience-icon {
+    width: 25px;
+    position: absolute;
+    margin-left: -40px;
+}
+
+.experience-institution {
+    margin-bottom: 0;
+}
+
+p.experience-date {
+    width: fit-content;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .experience-institution {
+        margin-bottom: 0;
+        font-size: 20px;
+        text-align: left;
+    }
+}
+
+/* Services */
+.services-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.services-icon {
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.services-card {
+    border: 1px solid transparent;
+    width: 375px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .services-container {
+        max-width: 90vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Contact */
 .contact-form {
     display: flex;
@@ -429,6 +493,13 @@ span.body-text-span {
 @media only screen and (max-width: 767px) {
     .contact-form {
         max-width: 95vw;
+        gap: 10px;
+    }
+
+    .services-card {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 5em;
     }
 }
 

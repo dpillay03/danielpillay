@@ -6,6 +6,8 @@ import Projects from './sections/Projects';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 import Header from './sections/Header';
+import Services from './sections/Services';
+import Experience from './sections/Experience';
 
 function App() {
   return (
@@ -20,6 +22,12 @@ function App() {
         </section>
         <section id='projects-section'>
           <Projects />
+        </section>
+        <section id='experience-section'>
+          <Experience />
+        </section>
+        <section id='services-section'>
+          <Services />
         </section>
         <section id='contact-section'>
           <Contact />

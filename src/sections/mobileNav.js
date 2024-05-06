@@ -39,6 +39,22 @@ const MobileNav = ({ isVisible, toggleNav, scrollToSection }) => {
         </li>
         <li
           onClick={() => {
+            scrollToSection('experience-section');
+            toggleNav();
+          }}
+        >
+          Experience
+        </li>
+        <li
+          onClick={() => {
+            scrollToSection('services-section');
+            toggleNav();
+          }}
+        >
+          Services
+        </li>
+        <li
+          onClick={() => {
             scrollToSection('contact-section');
             toggleNav();
           }}
