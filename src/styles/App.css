@@ -479,6 +479,16 @@ p.experience-date {
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .services-card {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 5em;
+    }
+}
+
+h3.service-title {
+    text-align: center;
 }
 
 /* Contact */
@@ -496,11 +506,7 @@ p.experience-date {
         gap: 10px;
     }
 
-    .services-card {
-        width: 100%;
-        height: fit-content;
-        margin-bottom: 5em;
-    }
+
 }
 
 #contact-section {

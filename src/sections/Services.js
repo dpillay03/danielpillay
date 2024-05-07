@@ -35,11 +35,10 @@ function Services() {
           <p className='service-description'>
             Opt for ongoing, professional website management with a monthly
             subscription service designed to keep your site at peak performance.
-            As your website manager, I will handle all aspects of your site's
-            functionality, perform regular updates, and ensure that it remains
-            at the cutting edge of technology and design trends. Please note,
-            rebranding services are available but not included in the standard
-            management package.
+            Let me handle all aspects of your site's functionality, perform
+            regular updates, and ensure that it remains at the cutting edge of
+            technology and design trends. Please note, rebranding services are
+            available but not included in the standard management package.
           </p>
           <a
             className='button secondary'
