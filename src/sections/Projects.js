@@ -2,8 +2,6 @@ import { useEffect, useRef } from 'react';
 import portfolioThumbnail from '../assets/daniel_pillay_portfolio.png';
 import shouldWeGoThumbnail from '../assets/should_we_go.png';
 import { Link } from 'react-router-dom';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { coy as codeStyle } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 import Flickity from 'flickity';
 import 'flickity/css/flickity.css';
