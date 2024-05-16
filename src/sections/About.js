@@ -42,8 +42,8 @@ function About() {
               currently open to freelance opportunities!
             </span>{' '}
             If you're looking to elevate your brand with a new or updated
-            website or simply seeking a collaborative partnership, don't
-            hesitate to connect.
+            website, rebrand, website management, or simply seeking a
+            collaborative partnership, don't hesitate to connect.
           </p>
           <button
             className='button secondary'

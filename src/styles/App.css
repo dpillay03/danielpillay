@@ -14,6 +14,12 @@
     z-index: 999;
 }
 
+@media only screen and (max-width: 767px) {
+    section:not(#home-section) {
+        margin-bottom: 100px !important;
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .site-header {
         width: 100vw;
@@ -345,8 +351,11 @@ span.body-text-span {
 }
 
 /* PROJECTS */
+
+
 .project-card {
     margin-bottom: 6em;
+    width: 100%;
 }
 
 .project-image {
@@ -354,10 +363,19 @@ span.body-text-span {
 }
 
 @media only screen and (max-width: 767px) {
+    h3.project-title {
+        margin-top: 1.5em;
+    }
+
     .project-image {
-        max-width: 92vw;
+        max-width: 75vw;
         height: auto;
         margin: 0 auto;
+        display: flex;
+    }
+
+    .tech {
+        margin: 10px 10px 10px 0 !important;
     }
 }
 
@@ -370,6 +388,7 @@ span.body-text-span {
     .tech-stack {
         justify-content: center;
     }
+
 }
 
 .tech,
@@ -416,15 +435,69 @@ span.body-text-span {
     color: black;
 }
 
+.flickity-prev-next-button .flickity-button-icon {
+    color: #10E7FE;
+}
+
+.flickity-page-dot.is-selected {
+    background: #10E7FE !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .flickity-prev-next-button.previous {
+        left: 0px !important;
+        top: 70px;
+    }
+
+    .flickity-prev-next-button.next {
+        right: 0px !important;
+        top: 70px;
+    }
+
+    .flickity-page-dots {
+        bottom: 0 !important;
+    }
+}
+
 /* Experience */
+.experience-card {
+    border-radius: 5px;
+    max-width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    align-content: space-evenly;
+    position: relative;
+    background: #fff;
+}
+
+.experience-header {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.experience-hr {
+    width: 10px;
+    height: 550px;
+    position: absolute;
+    z-index: 0;
+}
+
+hr.experience-hr.hr-one {
+    left: 24rem;
+}
+
 h3.experience-title {
     font-size: 28px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 1em;
 }
 
 .experience-icon {
-    width: 25px;
-    position: absolute;
-    margin-left: -40px;
+    width: auto;
+    height: 25px;
+    margin-top: 5px;
 }
 
 .experience-institution {
@@ -433,7 +506,13 @@ h3.experience-title {
 
 p.experience-date {
     width: fit-content;
-    margin-top: 10px;
+    margin: 10px 0 10px 35px;
+
+}
+
+.experience-position,
+.experience-date {
+    margin-left: 35px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -571,12 +650,20 @@ h3.service-title {
     cursor: pointer;
 }
 
-.contact-form-top {
-    display: flex;
-    gap: 25px;
+@media only screen and (max-width: 767px) {
+    .contact-form-top {
+        display: block !important;
+    }
+
+    .contact-form {
+        gap: 0
+    }
 }
 
-
+.contact-form-top {
+    display: flex;
+    gap: 10px
+}
 
 .contact-form-top #contact-section input[type="text"],
 #contact-section input[type="email"],
@@ -584,8 +671,6 @@ textarea {
     border-radius: 5px;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
-
-
 }
 
 .contact-container {

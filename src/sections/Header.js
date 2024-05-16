@@ -50,12 +50,7 @@ function Header({ isBlogPage }) {
           >
             Experience
           </li>
-          <li
-            id='services-link'
-            onClick={() => scrollToSection('services-section')}
-          >
-            Services
-          </li>
+
           <li
             id='contact-link'
             onClick={() => scrollToSection('contact-section')}

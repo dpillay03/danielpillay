@@ -26,9 +26,6 @@ function App() {
         <section id='experience-section'>
           <Experience />
         </section>
-        <section id='services-section'>
-          <Services />
-        </section>
         <section id='contact-section'>
           <Contact />
         </section>
