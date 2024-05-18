@@ -48,9 +48,9 @@ function Projects() {
                 <div className='tech'>Axios</div>
                 <div className='tech'>GH-PAGES</div>
               </div>
-              <Link to='/blog/should-we-go' className='button secondary'>
+              <a href='/blog/should-we-go' className='button secondary'>
                 Explore Project
-              </Link>{' '}
+              </a>
             </div>
           </div>
         </div>
@@ -76,9 +76,9 @@ function Projects() {
                 <div className='tech'>EMAIL.JS</div>
                 <div className='tech'>GH-PAGES</div>
               </div>
-              <Link to='/blog/portfolio-website' className='button secondary'>
+              <a to='/blog/portfolio-website' className='button secondary'>
                 Explore Project
-              </Link>{' '}
+              </a>{' '}
             </div>
           </div>
         </div>
