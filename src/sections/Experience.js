@@ -24,7 +24,7 @@ function Experience() {
               <div className='experience-header'>
                 <img src={workIcon} className='experience-icon' />
                 <h3 className='experience-institution'>
-                  Amazing Life Chiropractic and Wellness
+                  Amazing Life Solutions
                 </h3>
               </div>
               <p className='experience-position'>
@@ -67,7 +67,7 @@ function Experience() {
               <p className='experience-position'>
                 Master of Business and Administration
               </p>
-              <p className='experience-date'>Ongoing</p>
+              <p className='experience-date'>In Progress - 2025</p>
             </div>
             <div className='experience-card'>
               <div className='experience-header'>

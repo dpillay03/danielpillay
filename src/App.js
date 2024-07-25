@@ -8,6 +8,7 @@ import Footer from './sections/Footer';
 import Header from './sections/Header';
 import Services from './sections/Services';
 import Experience from './sections/Experience';
+import FlowStateMedia from './sections/FlowStateMedia';
 
 function App() {
   return (

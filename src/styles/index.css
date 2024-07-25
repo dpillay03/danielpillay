@@ -159,6 +159,12 @@ hr {
 }
 
 @media only screen and (max-width: 767px) {
+    .item {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 767px) {
     .two-col {
         grid-template-columns: 1fr;
         max-width: 90vw;

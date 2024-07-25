@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import MobileNav from './mobileNav';
 import logoImage from '../assets/logo.png';
 import { CgMenuRight } from 'react-icons/cg';
-
+import { Link } from 'react-router-dom';
 function Header({ isBlogPage }) {
   const [isMobileNavVisible, setIsMobileNavVisible] = useState(false);
 
@@ -57,6 +57,9 @@ function Header({ isBlogPage }) {
           >
             Contact
           </li>
+          {/* <li id='contact-link' className='fsm-link'>
+            <Link to='/fsm'>Flow State Media</Link>
+          </li> */}
           <li id='mobile-toggle' onClick={toggleMobileNav}>
             <CgMenuRight size={60} />
           </li>

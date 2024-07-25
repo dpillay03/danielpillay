@@ -215,7 +215,7 @@ svg.close-mobile {
 
 /* Hero Section */
 .hero-container {
-    height: 100vh;
+    height: 75vh;
     overflow: hidden;
     position: relative;
     width: 100vw;
@@ -273,7 +273,7 @@ svg.close-mobile {
 .project-subheader {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 400;
     margin-bottom: 1em;
     margin-top: 1em;
@@ -492,6 +492,13 @@ h3.experience-title {
     width: 500px;
     margin: 0 auto;
     margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 767px) {
+    h3.experience-title {
+        width: auto;
+
+    }
 }
 
 .experience-icon {

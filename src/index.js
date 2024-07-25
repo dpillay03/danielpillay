@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Projects from './sections/Projects';
 import BlogPage from './sections/Blog';
+import FlowStateMedia from './sections/FlowStateMedia';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
         <Route path='/' element={<App />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/blog/:slug' element={<BlogPage />} />
+        <Route path='/fsm' element={<FlowStateMedia />} />
       </Routes>
     </Router>
   </React.StrictMode>

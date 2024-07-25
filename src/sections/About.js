@@ -25,9 +25,12 @@ function About() {
             multinational large-scale enterprises located in the US and abroad.
             <br />
             <br />
-            Leveraging my versatile expertise in software development, digital
-            marketing, and UI/UX design, I aim to create compelling websites and
-            applications that propel brands and businesses to new heights
+            In 2017, I decided to launch <b>Flow State Media, LLC</b>, a website
+            and digital marketing agency aimed to help you lock in to your
+            business flow. Leveraging my versatile expertise in software
+            development, digital marketing, and UI/UX design, I aim to create
+            compelling websites and applications that propel brands and
+            businesses to new heights
             <br />
             <br />
             Beyond my professional pursuits, I look forward to exploring life's
