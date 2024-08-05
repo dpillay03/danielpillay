@@ -9,8 +9,8 @@ function Home() {
       <div className='hero'>
         <h1 id='hero-header'>Hi, I'm Daniel Pillay</h1>
         <h2 id='hero-subheader'>
-          Software Developer — Air Force Veteran — Owner of Flow State Media,
-          LLC
+          Software Developer — Web Analyst — Air Force Veteran — Owner of Flow
+          State Media, LLC
         </h2>
         <button
           className='button primary'
